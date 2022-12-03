@@ -12,11 +12,11 @@
 <body>
     <div class="header">
         <nav id="navBar">
-            <img src="images/renewlogo.png" alt="logo" class="logo">
+            <a href="index.html"><img src="images/logowhite.png" alt="logo" class="logo"></a>
             <ul class="nav-links">
-                <li><a href="#" class="active">Popular Places</a></li>
-                <li><a href="#">Travel Outside</a></li>
-                <li><a href="#">Online Packages</a></li>
+                <li><a href="index.html"  class="active">Home</a></li>
+                <li><a href="house.html">Popular Places</a></li>
+                <li><a href="listing.html">Online Packages</a></li>
             </ul>
             <a href="#" class="register-btn">Register Now</a>
             <i class="fas fa-bars" onclick="showmenu()"></i>
@@ -37,9 +37,9 @@
                         <label>Check Out</label>
                         <input type="text" placeholder="Add Date">
                     </div>
-                    <div>
+                    <div class="guest-input">
                         <label>Guest</label>
-                        <input type="text" placeholder="Add Guest">
+                        <input type="number" min="1" max="5" placeholder="1">
                     </div>
                     <button type="submit"><img src="images/search.png"></button>
                 </form>
@@ -107,7 +107,7 @@
                 </span>
             </div>
             <div>
-                <img src="Images/italy2.jpg">
+                <img src="Images/armsterdam.jpg">
                 <span>
                     <h3>Amsterdam</h3>
                     <p>Starts @ $400</p>
@@ -137,7 +137,7 @@
                 <h3>Paris</h3>
             </div>
             <div>
-                <img src="Images/new-delhi.png">
+                <img src="Images/sweeden.png">
                 <h3>Sweeden</h3>
             </div>
         </div>
@@ -166,7 +166,8 @@
         <a href="#" class="start-btn">Start making money</a>
 
         <div class="about-msg">
-            <h2>About Trabode</h2>
+            <h2>About Us</h2>
+            <h3>TRABODE - FIND YOUR NEXT STAY</h3>
             <p>Contrary to popular belief, Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Ratione saepe delectus vero fuga repellat repudiandae, qui velit 
                 architecto natus, autem nihil ut ducimus molestias dolores totam deleniti. 
@@ -174,17 +175,25 @@
                 aliquid in soluta quas reiciendis reprehenderit, similique sunt nesciunt corporis <br> magnam 
                 incidunt quisquam ut blanditiis aperiam saepe veniam quam. Pariatur, quam!</p>
         </div>
-
+    </div>
         <div class="footer">
+            <h2>CONTACT</h2>
+            <h3>Trabode</h3>
+            <p>Parkworth drive, California, United States</p>
+            <div class="c-details">
+            <p><i class="fas fa-phone"></i> 09063585525</p>
+            <p><i class="fas fa-envelope"></i><a href="mailto: afolayanafolasade@gmail.com">afolayanafolasade@gmail.com</a></p>
             <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
             <a href="#"><i class="fa-brands fa-youtube"></i></a>
             <a href="#"><i class="fa-brands fa-twitter"></i></a>
             <a href="#"><i class="fa-brands fa-instagram"></i></a>
             <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
             <hr>
             <p class="copyright">Copyright <i class="fas fa-copyright"></i> 2022, Fola. All rights reserved.</p>
+            <a href="#navBar"><i class="fas fa-arrow-up"></i></a>
         </div>
-    </div>
+    
 
 
     <script>
