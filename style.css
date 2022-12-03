@@ -338,6 +338,7 @@ nav .fa-bars{
     }
     .header{
         width: 100vw;
+        min-height: 110vh
     }
     .header h1{
         padding-top: 200px;
@@ -359,9 +360,6 @@ nav .fa-bars{
         margin-bottom: 20px;
         margin-top: 10px;
         padding-bottom: 10px;
-    }
-    .header{
-        min-height: 140vh;
     }
     .search-bar form button{
         position: absolute;
